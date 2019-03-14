@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA497F032B3BE529004F8DB9 /* ThumbnailImageStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE22B3BE529004F8DB9 /* ThumbnailImageStylable.swift */; };
+		FA497F042B3BE529004F8DB9 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE32B3BE529004F8DB9 /* UIViewController+Extensions.swift */; };
+		FA497F052B3BE529004F8DB9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE42B3BE529004F8DB9 /* UIView+Extensions.swift */; };
+		FA497F062B3BE529004F8DB9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE52B3BE529004F8DB9 /* UIColor+Extensions.swift */; };
+		FA497F072B3BE529004F8DB9 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE62B3BE529004F8DB9 /* UICollectionView+Extensions.swift */; };
+		FA497F082B3BE529004F8DB9 /* SingleTapRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE82B3BE529004F8DB9 /* SingleTapRotationGestureRecognizer.swift */; };
+		FA497F092B3BE529004F8DB9 /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EE92B3BE529004F8DB9 /* WheelView.swift */; };
+		FA497F0A2B3BE529004F8DB9 /* SpinWheelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EEA2B3BE529004F8DB9 /* SpinWheelButton.swift */; };
+		FA497F0B2B3BE529004F8DB9 /* Roundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EEC2B3BE529004F8DB9 /* Roundable.swift */; };
+		FA497F0D2B3BE529004F8DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA497EEE2B3BE529004F8DB9 /* Assets.xcassets */; };
+		FA497F0F2B3BE529004F8DB9 /* P2WheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EF22B3BE529004F8DB9 /* P2WheelViewModel.swift */; };
+		FA497F102B3BE529004F8DB9 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA497EF42B3BE529004F8DB9 /* PhotoCollectionViewCell.xib */; };
+		FA497F112B3BE529004F8DB9 /* P2WheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EF52B3BE529004F8DB9 /* P2WheelViewController.swift */; };
+		FA497F122B3BE529004F8DB9 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EF62B3BE529004F8DB9 /* PhotoCollectionViewCell.swift */; };
+		FA497F132B3BE529004F8DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA497EF72B3BE529004F8DB9 /* LaunchScreen.storyboard */; };
+		FA497F142B3BE529004F8DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA497EF92B3BE529004F8DB9 /* Main.storyboard */; };
+		FA497F152B3BE529004F8DB9 /* P1WheelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EFD2B3BE529004F8DB9 /* P1WheelViewModel.swift */; };
+		FA497F162B3BE529004F8DB9 /* P1WheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497EFF2B3BE529004F8DB9 /* P1WheelViewController.swift */; };
+		FA497F182B3BE529004F8DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA497F012B3BE529004F8DB9 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A5975F62234255000D14B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A5975D92234254F00D14B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5975E02234254F00D14B9D;
+			remoteInfo = PlayLogX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5975E12234254F00D14B9D /* PlayWheelButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWheelButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5975F52234255000D14B9D /* PlayWheelButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWheelButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA497EE22B3BE529004F8DB9 /* ThumbnailImageStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailImageStylable.swift; sourceTree = "<group>"; };
+		FA497EE32B3BE529004F8DB9 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		FA497EE42B3BE529004F8DB9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FA497EE52B3BE529004F8DB9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		FA497EE62B3BE529004F8DB9 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		FA497EE82B3BE529004F8DB9 /* SingleTapRotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTapRotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		FA497EE92B3BE529004F8DB9 /* WheelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
+		FA497EEA2B3BE529004F8DB9 /* SpinWheelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelButton.swift; sourceTree = "<group>"; };
+		FA497EEC2B3BE529004F8DB9 /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
+		FA497EEE2B3BE529004F8DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA497EF22B3BE529004F8DB9 /* P2WheelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2WheelViewModel.swift; sourceTree = "<group>"; };
+		FA497EF42B3BE529004F8DB9 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA497EF52B3BE529004F8DB9 /* P2WheelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2WheelViewController.swift; sourceTree = "<group>"; };
+		FA497EF62B3BE529004F8DB9 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA497EF82B3BE529004F8DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA497EFA2B3BE529004F8DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA497EFD2B3BE529004F8DB9 /* P1WheelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1WheelViewModel.swift; sourceTree = "<group>"; };
+		FA497EFF2B3BE529004F8DB9 /* P1WheelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1WheelViewController.swift; sourceTree = "<group>"; };
+		FA497F012B3BE529004F8DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA497F022B3BE529004F8DB9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA497F1B2B3BE543004F8DB9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5975DE2234254F00D14B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5975F22234255000D14B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5975D82234254F00D14B9D = {
+			isa = PBXGroup;
+			children = (
+				FA497EDF2B3BE529004F8DB9 /* PlayWheelButton */,
+				FA497F1A2B3BE543004F8DB9 /* PlayWheelButtonTests */,
+				2A5975E22234254F00D14B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5975E22234254F00D14B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5975E12234254F00D14B9D /* PlayWheelButton.app */,
+				2A5975F52234255000D14B9D /* PlayWheelButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA497EDF2B3BE529004F8DB9 /* PlayWheelButton */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EE02B3BE529004F8DB9 /* Commons */,
+				FA497EEE2B3BE529004F8DB9 /* Assets.xcassets */,
+				FA497EF02B3BE529004F8DB9 /* P2Wheel */,
+				FA497EF72B3BE529004F8DB9 /* LaunchScreen.storyboard */,
+				FA497EF92B3BE529004F8DB9 /* Main.storyboard */,
+				FA497EFB2B3BE529004F8DB9 /* P1Wheel */,
+				FA497F012B3BE529004F8DB9 /* AppDelegate.swift */,
+				FA497F022B3BE529004F8DB9 /* Info.plist */,
+			);
+			path = PlayWheelButton;
+			sourceTree = "<group>";
+		};
+		FA497EE02B3BE529004F8DB9 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EE12B3BE529004F8DB9 /* Extensions */,
+				FA497EE72B3BE529004F8DB9 /* Views */,
+				FA497EEB2B3BE529004F8DB9 /* Protocols */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FA497EE12B3BE529004F8DB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EE22B3BE529004F8DB9 /* ThumbnailImageStylable.swift */,
+				FA497EE32B3BE529004F8DB9 /* UIViewController+Extensions.swift */,
+				FA497EE42B3BE529004F8DB9 /* UIView+Extensions.swift */,
+				FA497EE52B3BE529004F8DB9 /* UIColor+Extensions.swift */,
+				FA497EE62B3BE529004F8DB9 /* UICollectionView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA497EE72B3BE529004F8DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EE82B3BE529004F8DB9 /* SingleTapRotationGestureRecognizer.swift */,
+				FA497EE92B3BE529004F8DB9 /* WheelView.swift */,
+				FA497EEA2B3BE529004F8DB9 /* SpinWheelButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA497EEB2B3BE529004F8DB9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EEC2B3BE529004F8DB9 /* Roundable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA497EF02B3BE529004F8DB9 /* P2Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EF12B3BE529004F8DB9 /* ViewModel */,
+				FA497EF32B3BE529004F8DB9 /* View */,
+			);
+			path = P2Wheel;
+			sourceTree = "<group>";
+		};
+		FA497EF12B3BE529004F8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EF22B3BE529004F8DB9 /* P2WheelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA497EF32B3BE529004F8DB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EF42B3BE529004F8DB9 /* PhotoCollectionViewCell.xib */,
+				FA497EF52B3BE529004F8DB9 /* P2WheelViewController.swift */,
+				FA497EF62B3BE529004F8DB9 /* PhotoCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA497EFB2B3BE529004F8DB9 /* P1Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EFC2B3BE529004F8DB9 /* ViewModel */,
+				FA497EFE2B3BE529004F8DB9 /* View */,
+			);
+			path = P1Wheel;
+			sourceTree = "<group>";
+		};
+		FA497EFC2B3BE529004F8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EFD2B3BE529004F8DB9 /* P1WheelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA497EFE2B3BE529004F8DB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA497EFF2B3BE529004F8DB9 /* P1WheelViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA497F1A2B3BE543004F8DB9 /* PlayWheelButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA497F1B2B3BE543004F8DB9 /* Info.plist */,
+			);
+			path = PlayWheelButtonTests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5975E02234254F00D14B9D /* PlayWheelButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5975FE2234255000D14B9D /* Build configuration list for PBXNativeTarget "PlayWheelButton" */;
+			buildPhases = (
+				2A5975DD2234254F00D14B9D /* Sources */,
+				2A5975DE2234254F00D14B9D /* Frameworks */,
+				2A5975DF2234254F00D14B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWheelButton;
+			productName = PlayLogX;
+			productReference = 2A5975E12234254F00D14B9D /* PlayWheelButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A5975F42234255000D14B9D /* PlayWheelButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5976012234255000D14B9D /* Build configuration list for PBXNativeTarget "PlayWheelButtonTests" */;
+			buildPhases = (
+				2A5975F12234255000D14B9D /* Sources */,
+				2A5975F22234255000D14B9D /* Frameworks */,
+				2A5975F32234255000D14B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5975F72234255000D14B9D /* PBXTargetDependency */,
+			);
+			name = PlayWheelButtonTests;
+			productName = PlayLogXTests;
+			productReference = 2A5975F52234255000D14B9D /* PlayWheelButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5975D92234254F00D14B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DexCodeMobile;
+				TargetAttributes = {
+					2A5975E02234254F00D14B9D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2A5975F42234255000D14B9D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A5975E02234254F00D14B9D;
+					};
+				};
+			};
+			buildConfigurationList = 2A5975DC2234254F00D14B9D /* Build configuration list for PBXProject "PlayWheelButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5975D82234254F00D14B9D;
+			productRefGroup = 2A5975E22234254F00D14B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5975E02234254F00D14B9D /* PlayWheelButton */,
+				2A5975F42234255000D14B9D /* PlayWheelButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5975DF2234254F00D14B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA497F132B3BE529004F8DB9 /* LaunchScreen.storyboard in Resources */,
+				FA497F142B3BE529004F8DB9 /* Main.storyboard in Resources */,
+				FA497F102B3BE529004F8DB9 /* PhotoCollectionViewCell.xib in Resources */,
+				FA497F0D2B3BE529004F8DB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5975F32234255000D14B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5975DD2234254F00D14B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA497F092B3BE529004F8DB9 /* WheelView.swift in Sources */,
+				FA497F162B3BE529004F8DB9 /* P1WheelViewController.swift in Sources */,
+				FA497F112B3BE529004F8DB9 /* P2WheelViewController.swift in Sources */,
+				FA497F0B2B3BE529004F8DB9 /* Roundable.swift in Sources */,
+				FA497F042B3BE529004F8DB9 /* UIViewController+Extensions.swift in Sources */,
+				FA497F0A2B3BE529004F8DB9 /* SpinWheelButton.swift in Sources */,
+				FA497F082B3BE529004F8DB9 /* SingleTapRotationGestureRecognizer.swift in Sources */,
+				FA497F122B3BE529004F8DB9 /* PhotoCollectionViewCell.swift in Sources */,
+				FA497F0F2B3BE529004F8DB9 /* P2WheelViewModel.swift in Sources */,
+				FA497F182B3BE529004F8DB9 /* AppDelegate.swift in Sources */,
+				FA497F062B3BE529004F8DB9 /* UIColor+Extensions.swift in Sources */,
+				FA497F072B3BE529004F8DB9 /* UICollectionView+Extensions.swift in Sources */,
+				FA497F052B3BE529004F8DB9 /* UIView+Extensions.swift in Sources */,
+				FA497F032B3BE529004F8DB9 /* ThumbnailImageStylable.swift in Sources */,
+				FA497F152B3BE529004F8DB9 /* P1WheelViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5975F12234255000D14B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A5975F72234255000D14B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A5975E02234254F00D14B9D /* PlayWheelButton */;
+			targetProxy = 2A5975F62234255000D14B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA497EF72B3BE529004F8DB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA497EF82B3BE529004F8DB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA497EF92B3BE529004F8DB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA497EFA2B3BE529004F8DB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A5975FC2234255000D14B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5975FD2234255000D14B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5975FF2234255000D14B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2W4XX3YA8;
+				INFOPLIST_FILE = PlayWheelButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.PlayWheelButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A5976002234255000D14B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2W4XX3YA8;
+				INFOPLIST_FILE = PlayWheelButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.PlayWheelButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A5976022234255000D14B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2W4XX3YA8;
+				INFOPLIST_FILE = PlayWheelButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.PlayWheelButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWheelButton.app/PlayWheelButton";
+			};
+			name = Debug;
+		};
+		2A5976032234255000D14B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2W4XX3YA8;
+				INFOPLIST_FILE = PlayWheelButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.PlayWheelButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWheelButton.app/PlayWheelButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5975DC2234254F00D14B9D /* Build configuration list for PBXProject "PlayWheelButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5975FC2234255000D14B9D /* Debug */,
+				2A5975FD2234255000D14B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5975FE2234255000D14B9D /* Build configuration list for PBXNativeTarget "PlayWheelButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5975FF2234255000D14B9D /* Debug */,
+				2A5976002234255000D14B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5976012234255000D14B9D /* Build configuration list for PBXNativeTarget "PlayWheelButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5976022234255000D14B9D /* Debug */,
+				2A5976032234255000D14B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5975D92234254F00D14B9D /* Project object */;
+}
